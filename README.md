@@ -1,3 +1,62 @@
+This is a work in progress
+
+
+## Current folder structure
+
+
+mean-boilerplate/
+    |- dist/
+    |   |- server/
+    |   |   |- views/
+    |   |- js/
+    |   |- css/
+    |   |- img/
+    |- doc/
+    |   |- server/
+    |   |- client/
+    |- bower_components/
+    |- node_modules/
+    |- log/
+    |- src/
+    |   |- server/
+    |   |   |- <server logic>
+    |   |   |- common/
+    |   |   |   |- <reusable server code>
+    |   |   |- config/
+    |   |   |   |- <server configuration files>
+    |   |   |- server.js
+    |   |   |- server.spec.js
+    |   |- client/
+    |   |   |- <client logic>
+    |   |   |- js/
+    |   |   |   |- main.js
+    |   |   |- css/
+    |   |   |   |- <general static css files>
+    |   |   |- img/
+    |   |   |   |- <static image files>
+    |   |   |- less/
+    |   |   |   |- main.less
+    |   |   |- sty/
+    |   |   |   |- main.sty
+    |   |   |- common/
+    |   |   |   |- <reusable client code>
+    |   |   |- config/
+    |   |   |   |- <client configuration files>
+    |   |   |   |- client.js
+    |   |   |   |- client.spec.js
+    |- bower.json
+    |- build.config.json
+    |- CHANGELOG.md
+    |- Gruntfile.js
+    |- LICENSE
+    |- module.prefix
+    |- module.suffix
+    |- package.json
+    |- README.md
+
+
+
+
 # generator-mean [![Build Status](https://secure.travis-ci.org/jaimegarcia/generator-mean.png?branch=master)](https://travis-ci.org/jaimegarcia/generator-mean)
 
 A generator for [Yeoman](http://yeoman.io).

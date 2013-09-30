@@ -49,6 +49,8 @@ MeanGenerator.prototype.app = function app() {
   this.mkdir('src/client');
   this.mkdir('src/client/app');
   this.mkdir('src/client/assets');
+  this.mkdir('src/client/assets/images');
+  this.mkdir('src/client/assets');
   this.mkdir('src/client/config');
   this.mkdir('src/client/common');
 
